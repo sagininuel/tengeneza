@@ -1,0 +1,55 @@
+.image-frame {
+  height: 292px;
+  left: 1070px;
+  opacity: 0;
+  position: absolute;
+  top: 533px;
+  transform: translate(45px, 0);
+  width: 193px;
+}
+
+.image-frame.animate-enter4 {
+  animation: animate-enter4-frames 0.40s ease-in-out 0.30s 1 normal forwards;
+  opacity: 0;
+  transform: translate(45px, 0);
+}
+
+.image-container-1 {
+  height: 292px;
+  position: relative;
+}
+
+.image-20 {
+  height: 232px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 164px;
+}
+
+.image-19 {
+  height: 182px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 110px;
+  width: 187px;
+}
+
+.image-frame.image-frame-1.animate-enter6 {
+  animation: animate-enter6-frames 0.40s ease-in-out 0.30s 1 normal forwards;
+  opacity: 0;
+  transform: translate(45px, 0);
+}
+
+@keyframes animate-enter4-frames,
+@keyframes animate-enter6-frames {
+  from{opacity: 0;
+transform: translate(45px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+

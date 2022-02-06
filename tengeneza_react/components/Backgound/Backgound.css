@@ -1,0 +1,58 @@
+.backgound {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 4833px;
+  left: 0;
+  min-width: 1440px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group-2 {
+  height: 4833px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle-36 {
+  height: 1001px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.rectangle-37 {
+  height: 4833px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.line-3 {
+  height: 2px;
+  left: 57px;
+  position: absolute;
+  top: 920px;
+  width: 1326px;
+}
+
+.line-4 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 1671px;
+  width: 1326px;
+}
+
+.line-5 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 2842px;
+  width: 1326px;
+}
+

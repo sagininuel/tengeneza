@@ -1,0 +1,77 @@
+.trolley-icon,
+.trolley-icon-1,
+.trolley-icon-2,
+.trolley-icon-3 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 40px;
+  position: absolute;
+  top: 5px;
+  width: 38px;
+}
+
+.vector-container,
+.vector-container-1,
+.vector-container-2,
+.vector-container-3 {
+  height: 29px;
+  margin-right: -0.75px;
+  margin-top: -1px;
+  position: relative;
+  width: 39px;
+}
+
+.vector-3,
+.vector-3-1,
+.vector-3-2,
+.vector-3-3 {
+  height: 17px;
+  left: 7px;
+  position: absolute;
+  top: 6px;
+  width: 32px;
+}
+
+.vector-4,
+.vector-4-1,
+.vector-4-2,
+.vector-4-3 {
+  height: 29px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.ellipse-container,
+.ellipse-container-1,
+.ellipse-container-2,
+.ellipse-container-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 3.5px;
+  margin-top: 2px;
+  min-width: 26px;
+}
+
+.ellipse-2,
+.ellipse-2-1,
+.ellipse-2-2,
+.ellipse-2-3 {
+  border-radius: 4.5px;
+  height: 9px;
+  width: 9px;
+}
+
+.ellipse-3,
+.ellipse-3-1,
+.ellipse-3-2,
+.ellipse-3-3 {
+  border-radius: 4.5px;
+  height: 9px;
+  margin-left: 8px;
+  width: 9px;
+}
+

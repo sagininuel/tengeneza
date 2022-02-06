@@ -1,0 +1,24 @@
+.story {
+  align-items: flex-start;
+  display: flex;
+  height: 4833px;
+  left: 0;
+  min-width: 1440px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group1 {
+  height: 4833px;
+  position: relative;
+  width: 1440px;
+}
+
+.component-4 {
+  height: 4813px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+

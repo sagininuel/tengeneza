@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/6-design.css" />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://unpkg.com/@material/switch@canary/dist/mdc.switch.css" rel="stylesheet" />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="6-design" />
+    <div class="container-center-horizontal">
+      <form class="x6-design screen" name="form7" action="form7" method="post">
+        <div class="overlap-group10">
+          <div class="flex-row">
+            <div class="flex-col">
+              <div class="overlap-group12">
+                <div class="overlap-group11">
+                  <a href="javascript:SubmitForm('form7')"><img class="image" src="img/image-47@1x.png" /> </a>
+                  <div class="title wendyone-normal-white-120px">Let’s Design</div>
+                </div>
+                <div class="subtitle lato-normal-white-20px">Design according to you liking!</div>
+                <div class="top_bar lato-normal-white-24px">
+                  <a href="1-2homepage.html"><div class="place lato-normal-white-24px">Home</div> </a>
+                  <div class="our-values">Our Values</div>
+                  <div class="tengeneza">Tengeneza</div>
+                </div>
+              </div>
+              <div class="questions wendyone-normal-black-20px">
+                <div class="question-1-1">
+                  <div class="group-13">
+                    <div class="overlap-group">
+                      <div class="what-business-domain wendyone-normal-black-20px">
+                        What business domain would you like to do a design for
+                      </div>
+                    </div>
+                  </div>
+                  <div class="widget-wrapper">
+                    <div class="drop-down-filled-dis">
+                      <div class="mdc-select mdc-select--filled demo-width-class" data-id="anima-widget">
+                        <div
+                          class="mdc-select__anchor custom-enhanced-select-width"
+                          role="button"
+                          aria-haspopup="listbox"
+                          aria-expanded="false"
+                        >
+                          <span class="mdc-select__ripple"></span>
+                          <span id="demo-label" class="mdc-floating-label">Pick</span>
+                          <span class="mdc-select__selected-text-container">
+                            <span id="demo-selected-text" class="mdc-select__selected-text"></span>
+                          </span>
+                          <span class="mdc-select__dropdown-icon">
+                            <span class="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                            <span class="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                          </span>
+                          <span class="mdc-line-ripple"></span>
+                        </div>
+                        <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                          <ul class="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <script>
+                        new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis .mdc-select"));
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="group-13">
+                    <div class="overlap-group">
+                      <div class="whats-the-title-for-the-design">What’s the title for the design?</div>
+                    </div>
+                  </div>
+                  <img class="object" src="img/object-1@1x.png" />
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="do-you-have-a-timeline-for-the-design">Do you have a timeline for the design?</div>
+                    </div>
+                    <div class="switch-unselected-disabled-primary">
+                      <button
+                        id="basic-switch"
+                        class="mdc-switch mdc-switch--unselected"
+                        type="button"
+                        role="switch"
+                        aria-checked="false"
+                      >
+                        <div class="mdc-switch__track"></div>
+                        <div class="mdc-switch__handle-track">
+                          <div class="mdc-switch__handle">
+                            <div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div>
+                            <div class="mdc-switch__ripple"></div>
+                            <div class="mdc-switch__icons">
+                              <svg class="mdc-switch__icon mdc-switch__icon--on" viewBox="0 0 24 24">
+                                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z" />
+                              </svg>
+                              <svg class="mdc-switch__icon mdc-switch__icon--off" viewBox="0 0 24 24">
+                                <path d="M20 13H4v-2h16v2z" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                      <script>
+                        mdc.autoInit();
+                        new mdc.switchControl.MDCSwitch.attachTo(
+                          document.querySelectorAll(".switch-unselected-disabled-primary .mdc-switch")[0]
+                        );
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="group-13">
+                    <div class="overlap-group">
+                      <div class="the-target-audience">The target audience is key, please specify a criteria</div>
+                    </div>
+                  </div>
+                  <div class="widget-wrapper">
+                    <div class="drop-down-filled-dis">
+                      <div class="mdc-select mdc-select--filled demo-width-class" data-id="anima-widget">
+                        <div
+                          class="mdc-select__anchor custom-enhanced-select-width"
+                          role="button"
+                          aria-haspopup="listbox"
+                          aria-expanded="false"
+                        >
+                          <span class="mdc-select__ripple"></span>
+                          <span id="demo-label" class="mdc-floating-label">Pick</span>
+                          <span class="mdc-select__selected-text-container">
+                            <span id="demo-selected-text" class="mdc-select__selected-text"></span>
+                          </span>
+                          <span class="mdc-select__dropdown-icon">
+                            <span class="mdc-select__dropdown-icon-inactive material-icons">arrow_drop_down</span>
+                            <span class="mdc-select__dropdown-icon-active material-icons">arrow_drop_up</span>
+                          </span>
+                          <span class="mdc-line-ripple"></span>
+                        </div>
+                        <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                          <ul class="mdc-list" id="select_dropdown" role="listbox" aria-label="listbox">
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                            <li class="mdc-list-item" data-value="Item" role="option">
+                              <span class="mdc-list-item__ripple"></span> <span class="mdc-list-item__text">Item</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <script>
+                        new mdc.select.MDCSelect(document.querySelector(".drop-down-filled-dis .mdc-select"));
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question">
+                  <div class="group-13">
+                    <div class="overlap-group">
+                      <div class="any-specific-details">
+                        Any specific details you would wish to include in the design?
+                      </div>
+                    </div>
+                  </div>
+                  <img class="object" src="img/object-1@1x.png" />
+                </div>
+                <div class="question">
+                  <div class="group-13">
+                    <div class="overlap-group">
+                      <div class="any-specific-details-1">
+                        Any specific details you would wish to include in the design?
+                      </div>
+                    </div>
+                  </div>
+                  <img class="object" src="img/object-1@1x.png" />
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="would-you-like-us-to">
+                        Would you like us to show case the end product of your design to other tengeneza friends?
+                      </div>
+                    </div>
+                    <div class="switch-unselected-disabled-primary">
+                      <button
+                        id="basic-switch"
+                        class="mdc-switch mdc-switch--unselected"
+                        type="button"
+                        role="switch"
+                        aria-checked="false"
+                      >
+                        <div class="mdc-switch__track"></div>
+                        <div class="mdc-switch__handle-track">
+                          <div class="mdc-switch__handle">
+                            <div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div>
+                            <div class="mdc-switch__ripple"></div>
+                            <div class="mdc-switch__icons">
+                              <svg class="mdc-switch__icon mdc-switch__icon--on" viewBox="0 0 24 24">
+                                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z" />
+                              </svg>
+                              <svg class="mdc-switch__icon mdc-switch__icon--off" viewBox="0 0 24 24">
+                                <path d="M20 13H4v-2h16v2z" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                      <script>
+                        mdc.autoInit();
+                        new mdc.switchControl.MDCSwitch.attachTo(
+                          document.querySelectorAll(".switch-unselected-disabled-primary .mdc-switch")[0]
+                        );
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="would-you-like-us-to-1">
+                        Would you like us to show case the end product of your design to other tengeneza friends?
+                      </div>
+                    </div>
+                    <div class="switch-unselected-disabled-primary">
+                      <button
+                        id="basic-switch"
+                        class="mdc-switch mdc-switch--unselected"
+                        type="button"
+                        role="switch"
+                        aria-checked="false"
+                      >
+                        <div class="mdc-switch__track"></div>
+                        <div class="mdc-switch__handle-track">
+                          <div class="mdc-switch__handle">
+                            <div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div>
+                            <div class="mdc-switch__ripple"></div>
+                            <div class="mdc-switch__icons">
+                              <svg class="mdc-switch__icon mdc-switch__icon--on" viewBox="0 0 24 24">
+                                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z" />
+                              </svg>
+                              <svg class="mdc-switch__icon mdc-switch__icon--off" viewBox="0 0 24 24">
+                                <path d="M20 13H4v-2h16v2z" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                      <script>
+                        mdc.autoInit();
+                        new mdc.switchControl.MDCSwitch.attachTo(
+                          document.querySelectorAll(".switch-unselected-disabled-primary .mdc-switch")[0]
+                        );
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="would-you-like-us-to-2">
+                        Would you like us to show case the end product of your design to other tengeneza friends?
+                      </div>
+                    </div>
+                    <div class="switch-unselected-disabled-primary">
+                      <button
+                        id="basic-switch"
+                        class="mdc-switch mdc-switch--unselected"
+                        type="button"
+                        role="switch"
+                        aria-checked="false"
+                      >
+                        <div class="mdc-switch__track"></div>
+                        <div class="mdc-switch__handle-track">
+                          <div class="mdc-switch__handle">
+                            <div class="mdc-switch__shadow"><div class="mdc-elevation-overlay"></div></div>
+                            <div class="mdc-switch__ripple"></div>
+                            <div class="mdc-switch__icons">
+                              <svg class="mdc-switch__icon mdc-switch__icon--on" viewBox="0 0 24 24">
+                                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z" />
+                              </svg>
+                              <svg class="mdc-switch__icon mdc-switch__icon--off" viewBox="0 0 24 24">
+                                <path d="M20 13H4v-2h16v2z" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                      <script>
+                        mdc.autoInit();
+                        new mdc.switchControl.MDCSwitch.attachTo(
+                          document.querySelectorAll(".switch-unselected-disabled-primary .mdc-switch")[0]
+                        );
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="send-me-a-text-messa">
+                        Send me a text message when the design is ready for reviewing?
+                      </div>
+                    </div>
+                    <div class="checkbox-selected-disabled-primary">
+                      <div class="mdc-checkbox" data-mdc-auto-init="MDCCheckbox" data-id="anima-widget">
+                        <input type="checkbox" checked class="mdc-checkbox__native-control" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path
+                              class="mdc-checkbox__checkmark-path"
+                              fill="none"
+                              d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                            />
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                      <script>
+                        mdc.autoInit();
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="send-me-a-text-messa-1">
+                        Send me a text message when the design is ready for reviewing?
+                      </div>
+                    </div>
+                    <div class="checkbox-selected-disabled-primary">
+                      <div class="mdc-checkbox" data-mdc-auto-init="MDCCheckbox" data-id="anima-widget">
+                        <input type="checkbox" checked class="mdc-checkbox__native-control" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path
+                              class="mdc-checkbox__checkmark-path"
+                              fill="none"
+                              d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                            />
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                      <script>
+                        mdc.autoInit();
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="send-me-a-text-messa-2">
+                        Send me a text message when the design is ready for reviewing?
+                      </div>
+                    </div>
+                    <div class="checkbox-selected-disabled-primary">
+                      <div class="mdc-checkbox" data-mdc-auto-init="MDCCheckbox" data-id="anima-widget">
+                        <input type="checkbox" checked class="mdc-checkbox__native-control" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path
+                              class="mdc-checkbox__checkmark-path"
+                              fill="none"
+                              d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                            />
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                      <script>
+                        mdc.autoInit();
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="question-1">
+                  <div class="overlap-group-1">
+                    <div class="overlap-group-2">
+                      <div class="send-me-a-text-messa-3">
+                        Send me a text message when the design is ready for reviewing?
+                      </div>
+                    </div>
+                    <div class="checkbox-selected-disabled-primary">
+                      <div class="mdc-checkbox" data-mdc-auto-init="MDCCheckbox" data-id="anima-widget">
+                        <input type="checkbox" checked class="mdc-checkbox__native-control" />
+                        <div class="mdc-checkbox__background">
+                          <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                            <path
+                              class="mdc-checkbox__checkmark-path"
+                              fill="none"
+                              d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                            />
+                          </svg>
+                          <div class="mdc-checkbox__mixedmark"></div>
+                        </div>
+                        <div class="mdc-checkbox__ripple"></div>
+                      </div>
+                      <script>
+                        mdc.autoInit();
+                      </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="4-tengeneza-cart.html" class="align-self-flex-center">
+                <div class="lipa-na-mpesa">
+                  <div class="overlap-group9">
+                    <a href="4-tengeneza-cart.html" onclick="window.event.stopPropagation()"
+                      ><img class="lipa-na-mpesa-1" src="img/lipa-na-mpesa-1@2x.png" /> </a
+                    ><a href="javascript:SubmitForm('form7')" onclick="window.event.stopPropagation()"
+                      ><div class="title-1 wendyone-normal-white-50px">Submit</div>
+                    </a>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="shopping-cart">
+              <div class="trolley-icon">
+                <div class="vector-container">
+                  <img class="vector-3" src="img/vector-3-1@2x.png" />
+                  <img class="vector-4" src="img/vector-4-1@2x.png" />
+                </div>
+                <div class="ellipse-container">
+                  <div class="ellipse-2 border-1-5px-white"></div>
+                  <div class="ellipse-3 border-1-5px-white"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="flex-row-1">
+              <div class="flex-col-1 lato-bold-corn-field-18px">
+                <div class="subtitle-1">Shop</div>
+                <div class="title-container">
+                  <div class="title-2 wendyone-normal-corn-field-32px">Tengeneza</div>
+                  <div class="subtitle-2 lato-bold-corn-field-18px">Our Values</div>
+                </div>
+                <div class="subtitle-3">Journey With Us</div>
+              </div>
+              <div class="flex-col-2">
+                <div class="subtitle-4 lato-bold-corn-field-18px">Get a post straight to your email.</div>
+                <div class="overlap-group1 border-2px-corn-field">
+                  <input
+                    class="subtitle-5 lato-bold-corn-field-16px"
+                    name="subtitle"
+                    placeholder="Email address"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="cta">
+                <div class="overlap-group-3"><div class="place-1 lato-normal-grape-16px">SEND</div></div>
+              </div>
+            </div>
+            <div class="flex-row-2 lato-bold-corn-field-18px">
+              <div class="copyright">©</div>
+              <div class="subtitle-6">Tengeneza 2022</div>
+              <div class="subtitle-7">Cookies policy</div>
+              <div class="subtitle-8">Terms of use</div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

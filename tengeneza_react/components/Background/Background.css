@@ -1,0 +1,61 @@
+.background-1 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1440px;
+}
+
+.overlap-group-5 {
+  height: 3253px;
+  margin-top: -0.2px;
+  position: relative;
+  width: 1440px;
+}
+
+.bg-3 {
+  height: 3253px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1432px;
+}
+
+.line-6 {
+  height: 8px;
+  left: 181px;
+  position: absolute;
+  top: 1237px;
+  width: 1078px;
+}
+
+.line-7 {
+  height: 8px;
+  left: 181px;
+  position: absolute;
+  top: 2537px;
+  width: 1078px;
+}
+
+.rectangle-42 {
+  height: 702px;
+  left: 8px;
+  position: absolute;
+  top: 2551px;
+  width: 1432px;
+}
+
+.rectangle-43 {
+  height: 1217px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.background-1.background-2 {
+  height: 3253px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
